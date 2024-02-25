@@ -1,0 +1,54 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+    background-color: #222;
+    color:black;
+    font: 200 14px Arial;
+}
+h1{
+    text-align: center;
+}
+#marca1{
+    text-align: center;
+}
+h2{
+    font-size: 36px;
+    line-height: 36px;
+}
+h3{
+    color: #999;
+    font-size: 18px;
+    font-weight: 300;
+}
+section{
+    padding: 30px 100px 30px 100px;
+}
+#Formulatrio{
+    background-color: #FFC900;
+    color: black;
+    
+}
+.iteform{
+    justify-content: center;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 150px 350px;
+    margin-bottom: 10px;
+}
+.iteform label{
+    font-weight: 700;
+}
+.iteform input,.iteform textarea{
+border-radius: 5px;
+border: 1px solid white;
+}
+input[type="submit"]{
+background-color :#222;
+border: 1px solid#222;
+color: white;
+padding: 10px;
+grid-column: 2/3;
+justify-self: end;
+}
